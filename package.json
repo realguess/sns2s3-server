@@ -1,0 +1,30 @@
+{
+  "name": "sns2s3-server",
+  "version": "0.0.1",
+  "description": "Put Amazon SNS messages into Amazon S3 bucket.",
+  "main": "app.js",
+  "dependencies": {
+    "aws-sdk": "^2.1.16",
+    "sns-server": "git://github.com/realguess/sns-server#v0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:realguess/sns2s3-server.git"
+  },
+  "keywords": [
+    "sns",
+    "s3"
+  ],
+  "author": {
+    "name": "Chao Huang",
+    "email": "chao@realguess.net"
+  },
+  "bugs": {
+    "url": "https://github.com/realguess/sns2s3-server/issues"
+  },
+  "homepage": "https://github.com/realguess/sns2s3-server"
+}
