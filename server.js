@@ -3,7 +3,7 @@
 'use strict';
 
 var aws = require('aws-sdk');
-var server = require('realguess/sns-server');
+var server = require('sns-server');
 var s3 = new aws.S3();
 var port = process.env.PORT || 3000;
 var bucket = process.env.S3_BUCKET;

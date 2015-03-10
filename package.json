@@ -2,7 +2,7 @@
   "name": "sns2s3-server",
   "version": "0.0.1",
   "description": "Put Amazon SNS messages into Amazon S3 bucket.",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "aws-sdk": "^2.1.16",
     "sns-server": "git://github.com/realguess/sns-server#v0.0.2"
