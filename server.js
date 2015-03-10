@@ -11,7 +11,13 @@ var options = {
   notify: function (data, done) {
     var key = new Date().toISOString();
 
-    s3.putObject({ Bucket: bucket, Key: key, Body: data }, done);
+    s3.putObject({
+      Bucket: bucket,
+      Key: key,
+      Body: data,
+      ContentType: 'application/json',
+      StorageClass: 'REDUCED_REDUNDANCY'
+    }, done);
   }
 };
 
