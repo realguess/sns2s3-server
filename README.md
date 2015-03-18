@@ -1,5 +1,13 @@
 # SNS2S3 Server
 
+[![Code Climate][code-climate-img]][code-climate-url]
+[![Test Coverage][code-climate-test-coverage-img]][code-climate-test-coverage-url]
+
+[code-climate-img]: https://codeclimate.com/github/realguess/sns2s3-server/badges/gpa.svg
+[code-climate-url]: https://codeclimate.com/github/realguess/sns2s3-server
+[code-climate-test-coverage-img]: https://codeclimate.com/github/realguess/sns2s3-server/badges/coverage.svg
+[code-climate-test-coverage-url]: https://codeclimate.com/github/realguess/sns2s3-server
+
 Place Amazon SNS messages into Amazon S3 bucket.
 
 
